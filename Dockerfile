@@ -5,9 +5,10 @@ RUN apt update
 RUN apt upgrade -y
 RUN apt install -y \
     build-essential \
-    python \
     git \
-    vim \
-    tmux
+    man \
+    python \
+    tmux \
+    vim
 
 WORKDIR /ws
